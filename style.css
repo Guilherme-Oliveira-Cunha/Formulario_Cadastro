@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(to right, #4fb9fa, #264a61);
+}
+.fundo {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    align-items: center;
+    color: white;
+    white: 100%;
+}
+
+h1 {
+    padding-bottom: 40px;
+}
+
+.dados {
+    border: none;
+}
+
+input {
+    padding: 15px;
+    margin: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #05dbf2;
+    cursor: pointer;
+}
+
+select {
+    padding: 15px;
+    margin: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #05dbf2;
+    cursor: pointer;
+}
+
+option {
+    font-size: 20px;
+}
+
+#conteudo {
+    margin-top: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #05dbf2;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#botao {
+    color: white;
+    background-color: #05dbf2;
+}
+
+@media (max-width: 950px) {
+    input {
+        padding: 15px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 15px;
+        outline: none;
+        border-radius: 5px;
+        border: 2px solid #05dbf2;
+        cursor: pointer;
+        display: block;
+        font-size: 17px;
+    }
+    select {
+        padding: 15px;
+        margin: auto;
+        margin-top: 5px;
+        outline: none;
+        border-radius: 5px;
+        border: 2px solid #05dbf2;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    p {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    #conteudo {
+        margin-top: 20px;
+        outline: none;
+        border-radius: 5px;
+        border: 2px solid #05dbf2;
+        font-size: 17px;
+        font-family: sans-serif;
+        width: 80%;
+    }
+}
